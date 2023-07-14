@@ -1,0 +1,26 @@
+body {
+    background-color: #EFEFEF;
+}
+h1,
+h2,
+h3,
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    color: #113537;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 20px;
+}
+.picture {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,44 @@
+body {
+    background-color: #EFEFEF;
+}
+h1,
+h2,
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    color: #113537;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 20px;
+}
+.pic {
+    width: 313px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.ingredients,
+.directions {
+    margin-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #113537;
+    text-align: justify;
+}
+
+.ingredients.list,
+.directions.unorganized {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.bold-title {
+    font-size: 32px;
+    font-weight: 700;
+}
