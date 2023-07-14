@@ -23,13 +23,14 @@ h2,
 .list,
 p {
     font-family: 'Courier New', Courier, monospace;
+    color: #113537;
 }
 
 h1 {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
-    color: #113537;
+    
     
 }
 
