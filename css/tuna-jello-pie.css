@@ -5,11 +5,13 @@ body {
     display: flex;
     flex-direction: column;
     min-width: auto;
+    flex: auto;
+    position: absolute;
 }
 
 .header {
     display: flex;
-    flex: 1;
+    flex-grow: 1;
     justify-content: space-between;
     align-items: center;
     padding: 8px;
@@ -48,3 +50,38 @@ a {
 
 /* everything here */
 
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    border-bottom: 1px transparent black;
+    box-shadow: 1px 2px 4px rgba(0,0,0,.2);
+    width: 90%;
+    justify-content: center;
+    padding: 12px;
+    flex-shrink: 2;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+.header-container .header-title {
+    flex: inherit;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.header-container .header-description {
+    flex: inherit;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.header-container > div {
+    padding: 16px;
+    flex: auto;
+}
