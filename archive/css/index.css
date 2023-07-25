@@ -1,0 +1,55 @@
+body {
+    background-color: #EFEFEF;
+}
+#header {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.image.header {
+    width: 240px;
+    height: auto;
+}
+
+.image.body{
+    width: 320px;
+    height: auto;
+}
+
+h1,
+h2,
+.list,
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #113537;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    
+    
+}
+
+.list {
+    text-align: center;
+    font-size: large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+
+}
+
+.button {
+    text-align: center;
+    font-size: xx-large;
+}
