@@ -5,11 +5,13 @@ body {
     display: flex;
     flex-direction: column;
     min-width: auto;
+    flex: auto;
+    position:absolute;
 }
 
 .header {
     display: flex;
-    flex: 1;
+    flex: auto;
     justify-content: space-between;
     align-items: center;
     padding: 8px;
