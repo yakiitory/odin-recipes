@@ -64,6 +64,11 @@ a {
     margin-bottom: 16px;
 }
 
+.header-container .header-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .header-container .header-title {
     flex: inherit;
     font-size: 64px;

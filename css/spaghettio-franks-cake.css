@@ -75,7 +75,7 @@ a {
 
 .header-container .header-title {
     flex: inherit;
-    font-size: 64px;
+    font-size: 48px;
     font-weight: 600;
 }
 
@@ -85,6 +85,10 @@ a {
     font-weight: 300;
 }
 
+.header-container img {
+    width: 356px;
+    height: auto;
+}
 .header-container > div {
     padding: 16px;
     flex: auto;
